@@ -26,7 +26,7 @@ day = today.strftime("%d")
 month = today.strftime("%m")
 year = today.strftime("%y")
 
-heading = "---- Mini Movie Fundraiser Ticket Data ({}/{}/{}) ----\n".format(day, month, year)
+heading = "---- Right angle Triangle solver Data ({}/{}/{}) ----\n".format(day, month, year)
 filename = "MMF_{}_{}_{}".format(year, month, day)
 
 
