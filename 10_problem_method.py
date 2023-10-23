@@ -1,3 +1,25 @@
+import math
+def digit_check(question, error, num_type):
+    valid = False
+    while not valid:
+
+        try:
+            response = num_type(input(question))
+
+            if response <= 0:
+                print(error)
+            elif response == "":
+                print("Sory, this can't be blank. Please try again.")
+            else:
+                return response
+
+        except ValueError:
+            print(error)
+
+
+
+
+
 # right angle triangle default 90 degree
 def right_angle_triangle_calculator():
     print("Right-Angled Triangle Calculator")
