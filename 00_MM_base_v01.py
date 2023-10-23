@@ -8,27 +8,41 @@ def show_instructions():
     print(''''\n
 ****** Instructions ******
 
-Choose you want to find out lengths or angles or both
+Enter the name or 'xxx' to quit - 
 
-For both, enter ...
-- The person's name (can't be blank)
+Age - (limitation 16<x<21)
+
+Choose you want to find out angle(degree) or length right-angle triangle / triangle
+
+For right-angle triangle, enter ...
+- Enter values (only digit valid)
 - Age (between 16 and 22)
+- Choose calculate angle or length
 _ Type of unknown value (angle/degree or length or both)
 
+For right-angle triangle calculate angle ...
+- Enter the length of the opposite side
+- Enter the length of the adjacent side
 
-For lengths, enter ...
-- The unknown length (opposite, adjacent, hypotenuse)
-- Angle A / B
+For right-angle triangle calculate length ...
+- Enter the length of the known side
+- Enter the known angle in degrees 
 
-For angles, enter ...
-- The unknown angle 
-- Length 
+For triangle calculate angle ...
+- Enter the length of side opposite 
+- Enter the length of side adjacent
+- Enter the length of side hypotenuse 
+
+For triangle calculate length ...
+- Enter which side want to calculate (unknown value) - opposite / adjacent / hypotenuse
+- Enter angle A in degrees
+- Enter the length of side ----
+- Enter the length of side ---
 
 When you have entered all the users, press 'xxx' to quit.
 
-The program will then display the length or angles or both details 
-including the cost of each problem, the total cost
-and the total profit.
+The program will then display the length or angles details 
+including the current date 
 
 This information will also be automatically written to 
 a text file.

@@ -38,7 +38,7 @@ def right_angle_triangle_calculator():
         print(f"The angle is {angle_deg:.2f} degrees")
     elif choice == 'le':
         known_side = digit_check("Enter the length of the known side: ", "This only valid digit\n", float)
-        angle_deg = digit_check("Enter the angle in degrees: ", "This only valid digit\n", float)
+        angle_deg = digit_check("Enter the known angle in degrees: ", "This only valid digit\n", float)
 
         angle_rad = math.radians(angle_deg)
         unknown_side = known_side / math.tan(angle_rad)
